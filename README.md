@@ -1,6 +1,5 @@
-# LowLevelDesign-clone
-
-1 ) https://refactoring.guru/design-patterns
+# LowLevelDesign - resources
+1) https://refactoring.guru/design-patterns
 2) https://sourcemaking.com/design_patterns
 3) https://www.geeksforgeeks.org/software-design-patterns/
 4) https://github.com/prasadgujar/low-level-design-primer
