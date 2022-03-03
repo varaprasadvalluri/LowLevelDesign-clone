@@ -7,5 +7,4 @@
 6) https://www.youtube.com/watch?v=OkC7HKtiZC0&list=PLGLfVvz_LVvQ5G-LdJ8RLqe-ndo7QITYc (for UML 2.0)
 7) https://github.com/iluwatar/java-design-patterns
 8) https://github.com/anomaly2104/ticket-booking-low-level-system-design
-9) https://github.com/prasadgujar/low-level-design-primer
-10) https://github.com/iluwatar/java-design-patterns
+9) https://github.com/iluwatar/java-design-patterns
