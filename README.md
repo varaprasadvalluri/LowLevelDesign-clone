@@ -21,3 +21,12 @@
 **Interface Segregation Principle** - No client should be forced to depend on methods it does not use.
 
 **Dependency inversion principle** - High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend upon details. Details should depend upon abstractions.
+
+
+
+--------------HTTP Code ------------
+1xx – informational – the request was received, continuing process
+2xx – successful – the request was received successfully and accepted
+3xx – redirection – further action needs to be taken to complete the request
+4xx – client error – request contains bad syntax or cannot be fulfilled
+5xx – server error – the server failed to fulfill an apparently valid request
