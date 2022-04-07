@@ -25,8 +25,21 @@
 
 
 --------------HTTP Code ------------
+
 1xx – informational – the request was received, continuing process
 2xx – successful – the request was received successfully and accepted
 3xx – redirection – further action needs to be taken to complete the request
 4xx – client error – request contains bad syntax or cannot be fulfilled
 5xx – server error – the server failed to fulfill an apparently valid request
+ ----- Status codes meaning --------
+200- ok
+201- created
+301 - found
+400 -bad request
+401 - unauthorized
+403 -forbidden
+404 - not found
+405 - method not allowed 
+408 - request timedout
+413 - request entity too large 
+429 - too many requests
