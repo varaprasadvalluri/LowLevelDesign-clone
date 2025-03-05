@@ -43,3 +43,7 @@
 408 - request timedout
 413 - request entity too large 
 429 - too many requests
+
+#For Angular
+
+https://github.com/sudheerj/angular-interview-questions?tab=readme-ov-file
