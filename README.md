@@ -11,16 +11,19 @@
 10) Udit Agarwal System Design (LLD)--> https://github.com/anomaly2104
 
 ---------------------------------S.O.L.I.D Principles --------------------------------------------
+These are five design principles that improve the maintainability of Object-Oriented software.
 
-**Single responsibility principle** - A class should have only one reason to change.
+**Principle	Description	Example**
 
-**Open/Closed principle** - Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+**Single Responsibility Principle (SRP)**	A class should have only one reason to change.	Separate AccountService and TransactionService instead of combining them.
 
-**Liskov Substitution Principle** - Child classes should never break the parent class type definitions.
+**Open/Closed Principle (OCP)**	A class should be open for extension, but closed for modification.	Use abstract classes or interfaces to allow extension without modifying existing code.
 
-**Interface Segregation Principle** - No client should be forced to depend on methods it does not use.
+**Liskov Substitution Principle (LSP)**	A subclass should be replaceable for its base class without breaking functionality.	If SavingsAccount extends BankAccount, it should support all behaviors of BankAccount.
 
-**Dependency inversion principle** - High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend upon details. Details should depend upon abstractions.
+**Interface Segregation Principle (ISP)**	A class should not be forced to implement unnecessary methods.	Instead of one big interface, break it into smaller ones (LoanService, CreditCardService).
+
+**Dependency Inversion Principle (DIP)**	High-level modules should not depend on low-level modules. Both should depend on abstractions.	Use interfaces instead of direct class dependencies. (DatabaseService interface instead of MySQLDatabase).
 
 
 
